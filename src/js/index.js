@@ -14,7 +14,7 @@ let generateExcuse = () => {
   let subject = [
     "Mi novia",
     "Donald Trump",
-    "El vagabundo de la esquina",
+    "El vendedor de la esquina",
     "Un dios noruego"
   ];
   let action = ["vomito en", "cambio por drogas", "se comio", "me robo"];
@@ -25,7 +25,7 @@ let generateExcuse = () => {
     "mi proyecto"
   ];
   let where = [
-    "en la yapla",
+    "en la playa",
     "en el palacio de Miraflores",
     "en Suiza",
     "en otro plano espiritual"
@@ -36,13 +36,13 @@ let generateExcuse = () => {
   let objectindex = Math.floor(Math.random() * 4);
   let whereindex = Math.floor(Math.random() * 4);
 
-  return (
-    subject[subjectindex] +
-    " " +
-    action[actionindex] +
-    " " +
-    object[objectindex] +
-    " " +
-    where[whereindex]
+  return subject[subjectindex].concat(
+    " ",
+    action[actionindex],
+    " ",
+    object[objectindex],
+    " ",
+    where[whereindex],
+    "."
   );
 };
