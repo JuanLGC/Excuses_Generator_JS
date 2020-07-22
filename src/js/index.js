@@ -14,7 +14,7 @@ let generateExcuse = () => {
   let subject = [
     "Mi novia",
     "Donald Trump",
-    "El negrito de la esquina",
+    "El vagabundo de la esquina",
     "Un dios noruego"
   ];
   let action = ["vomito en", "cambio por drogas", "se comio", "me robo"];
